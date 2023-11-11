@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [
     "react",
@@ -26,6 +26,7 @@
     "react": "^18.2.0",
     "rollup": "^4.3.1",
     "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
   "main": "dist/cjs/index.js",
@@ -33,5 +34,6 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "type": "module"
 }
