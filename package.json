@@ -2,9 +2,8 @@
   "name": "react-super-select",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "rollup -c"
   },
   "keywords": [
     "react",
@@ -28,5 +27,11 @@
     "rollup": "^4.3.1",
     "rollup-plugin-dts": "^6.1.0",
     "typescript": "^5.2.2"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
