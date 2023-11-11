@@ -5,6 +5,8 @@ interface SuperSelectProps {
   multipleSelect: boolean;
 }
 
-const SuperSelect = () => {};
+const SuperSelect = (props: SuperSelectProps) => {
+  return <div></div>;
+};
 
 export default SuperSelect;
